@@ -1,2 +1,0 @@
-/usr/bin/ar qc liblibserver_server.a CMakeFiles/libserver_server.dir/Channel.cpp.o CMakeFiles/libserver_server.dir/Epoll.cpp.o CMakeFiles/libserver_server.dir/EventLoop.cpp.o CMakeFiles/libserver_server.dir/EventLoopThread.cpp.o CMakeFiles/libserver_server.dir/EventLoopThreadPool.cpp.o CMakeFiles/libserver_server.dir/HttpData.cpp.o CMakeFiles/libserver_server.dir/Server.cpp.o CMakeFiles/libserver_server.dir/Timer.cpp.o
-/usr/bin/ranlib liblibserver_server.a

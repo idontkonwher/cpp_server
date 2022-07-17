@@ -1,2 +1,0 @@
-/usr/bin/ar qc liblibserver_log.a CMakeFiles/libserver_log.dir/AppendFile.cpp.o CMakeFiles/libserver_log.dir/AsyncLogging.cpp.o CMakeFiles/libserver_log.dir/LogFile.cpp.o CMakeFiles/libserver_log.dir/Logger.cpp.o CMakeFiles/libserver_log.dir/LogStream.cpp.o
-/usr/bin/ranlib liblibserver_log.a
