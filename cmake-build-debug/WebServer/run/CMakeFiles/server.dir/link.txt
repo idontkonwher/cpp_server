@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++11 -pthread -g CMakeFiles/server.dir/run_server.cpp.o -o server  ../base/libserver_server.a ../log/liblibserver_log.a ../server/liblibserver_server.a -lpthread 

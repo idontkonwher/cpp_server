@@ -1,0 +1,142 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "WebServer",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-WebServer-Debug-0ec3deb79768f5e070fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "WebServer"
+				},
+				{
+					"build" : "WebServer/base",
+					"jsonFile" : "directory-WebServer.base-Debug-5ed6ebe41368232b2e68.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "WebServer/base",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "WebServer/log",
+					"jsonFile" : "directory-WebServer.log-Debug-2862ac17be93e051c982.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "WebServer/log",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "WebServer/server",
+					"jsonFile" : "directory-WebServer.server-Debug-90231d713fb4acb92db1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "WebServer/server",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "server",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "libserver_base::@5a67b0a44b3e32255f64",
+					"jsonFile" : "target-libserver_base-Debug-ae9547976d190272bc10.json",
+					"name" : "libserver_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libserver_log::@e4b58db412a7c12b8f65",
+					"jsonFile" : "target-libserver_log-Debug-e2f3f90dd47ff4d261c9.json",
+					"name" : "libserver_log",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "libserver_server::@9655e3ee645fcb5bf785",
+					"jsonFile" : "target-libserver_server-Debug-cb28f1233f01cab07f8b.json",
+					"name" : "libserver_server",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/server/cmake-build-debug",
+		"source" : "/root/server"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

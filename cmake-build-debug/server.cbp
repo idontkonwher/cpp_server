@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="server"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\WebServer\;CMake Files\WebServer\run\;CMake Files\WebServer\base\;CMake Files\WebServer\log\;CMake Files\WebServer\server\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/root/server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/root/server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/root/server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server">
+				<Option output="/root/server/cmake-build-debug/WebServer/run/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/server/cmake-build-debug/WebServer/run"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/ffmpeg"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/run/Makefile&quot;  VERBOSE=1 server"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/run/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/run/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/run/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server/fast">
+				<Option output="/root/server/cmake-build-debug/WebServer/run/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/server/cmake-build-debug/WebServer/run"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/ffmpeg"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/run/Makefile&quot;  VERBOSE=1 server/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/run/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/run/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/run/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libserver_base">
+				<Option output="/root/server/cmake-build-debug/WebServer/base/libserver_server.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/server/cmake-build-debug/WebServer/base"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/ffmpeg"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/base/Makefile&quot;  VERBOSE=1 libserver_base"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/base/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libserver_base/fast">
+				<Option output="/root/server/cmake-build-debug/WebServer/base/libserver_server.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/server/cmake-build-debug/WebServer/base"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/ffmpeg"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/base/Makefile&quot;  VERBOSE=1 libserver_base/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/base/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libserver_log">
+				<Option output="/root/server/cmake-build-debug/WebServer/log/liblibserver_log.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/server/cmake-build-debug/WebServer/log"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/ffmpeg"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/log/Makefile&quot;  VERBOSE=1 libserver_log"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/log/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/log/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/log/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libserver_log/fast">
+				<Option output="/root/server/cmake-build-debug/WebServer/log/liblibserver_log.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/server/cmake-build-debug/WebServer/log"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/ffmpeg"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/log/Makefile&quot;  VERBOSE=1 libserver_log/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/log/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/log/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/log/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libserver_server">
+				<Option output="/root/server/cmake-build-debug/WebServer/server/liblibserver_server.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/server/cmake-build-debug/WebServer/server"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/ffmpeg"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/server/Makefile&quot;  VERBOSE=1 libserver_server"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libserver_server/fast">
+				<Option output="/root/server/cmake-build-debug/WebServer/server/liblibserver_server.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/server/cmake-build-debug/WebServer/server"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/ffmpeg"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/opt/rh/devtoolset-8/root/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/server/Makefile&quot;  VERBOSE=1 libserver_server/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/root/server/cmake-build-debug/WebServer/server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/root/server/WebServer/base/NonCopyable.hpp">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/base/Util.cpp">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/base/Util.h">
+			<Option target="libserver_base"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/log/AppendFile.cpp">
+			<Option target="libserver_log"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/log/AppendFile.h">
+			<Option target="libserver_log"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/log/AsyncLogging.cpp">
+			<Option target="libserver_log"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/log/AsyncLogging.h">
+			<Option target="libserver_log"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/log/LogFile.cpp">
+			<Option target="libserver_log"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/log/LogFile.h">
+			<Option target="libserver_log"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/log/LogStream.cpp">
+			<Option target="libserver_log"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/log/LogStream.h">
+			<Option target="libserver_log"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/log/Logger.cpp">
+			<Option target="libserver_log"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/log/Logger.h">
+			<Option target="libserver_log"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/run/run_server.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/server/Channel.cpp">
+			<Option target="libserver_server"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/server/Channel.h">
+			<Option target="libserver_server"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/server/Epoll.cpp">
+			<Option target="libserver_server"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/server/Epoll.h">
+			<Option target="libserver_server"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/server/EventLoop.cpp">
+			<Option target="libserver_server"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/server/EventLoop.h">
+			<Option target="libserver_server"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/server/EventLoopThread.cpp">
+			<Option target="libserver_server"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/server/EventLoopThread.h">
+			<Option target="libserver_server"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/server/EventLoopThreadPool.cpp">
+			<Option target="libserver_server"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/server/EventLoopThreadPool.h">
+			<Option target="libserver_server"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/server/HttpData.cpp">
+			<Option target="libserver_server"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/server/HttpData.h">
+			<Option target="libserver_server"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/server/Server.cpp">
+			<Option target="libserver_server"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/server/Server.h">
+			<Option target="libserver_server"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/server/Timer.cpp">
+			<Option target="libserver_server"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/server/Timer.h">
+			<Option target="libserver_server"/>
+		</Unit>
+		<Unit filename="/root/server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\WebServer\"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/run/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\WebServer\run\"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\WebServer\base\"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/log/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\WebServer\log\"/>
+		</Unit>
+		<Unit filename="/root/server/WebServer/server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\WebServer\server\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

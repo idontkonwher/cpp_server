@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.23)
+SET(CMAKE_CXX_FLAGS ${CMAKE_CXX_FLAGS} "-std=c++11 -pthread")
+find_package (Threads)
+add_executable(server run_server.cpp)
+target_link_libraries(server libserver_base libserver_log libserver_server)
+target_link_libraries (server ${CMAKE_THREAD_LIBS_INIT})
