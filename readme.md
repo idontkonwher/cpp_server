@@ -1,5 +1,5 @@
 ## CPP Server
-1. 项目用于学习 muduo，代码来自 https://github.com/qinguoyi/TinyWebServer
+1. 项目用于学习 muduo，代码参考 https://github.com/qinguoyi/TinyWebServer
     >网络编程基础可参阅《Linux高性能服务器编程》
    > 
     >muduo原理可参参阅《Linux 多线程服务端编程 使用muduo C++ 网络库》
