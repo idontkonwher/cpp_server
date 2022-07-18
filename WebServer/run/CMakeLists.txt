@@ -1,4 +1,5 @@
-cmake_minimum_required(VERSION 3.23)
+cmake_minimum_required(VERSION 3.13)
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 SET(CMAKE_CXX_FLAGS ${CMAKE_CXX_FLAGS} "-std=c++11 -pthread")
 find_package (Threads)
 add_executable(server run_server.cpp)

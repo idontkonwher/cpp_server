@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.23)
+cmake_minimum_required(VERSION 3.13)
 add_subdirectory(run)
 add_subdirectory(base)
 add_subdirectory(log)
