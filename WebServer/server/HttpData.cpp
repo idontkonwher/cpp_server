@@ -111,6 +111,7 @@ std::string MimeType::getMime(const std::string &suffix) {
 
 HttpData::HttpData(EventLoop *loop, int connfd)
     : loop_(loop),
+      path_("root/"),
       channel_(new Channel(loop, connfd)),
       fd_(connfd),
       error_(false),
@@ -544,7 +545,7 @@ AnalysisState HttpData::analysisRequest() {
     }
 
     struct stat sbuf;
-    if (stat(fileName_.c_str(), &sbuf) < 0) {
+    if (stat((path_ + fileName_).c_str(), &sbuf) < 0) {
       header.clear();
       handleError(fd_, 404, "Not Found!");
       return ANALYSIS_ERROR;
@@ -558,8 +559,9 @@ AnalysisState HttpData::analysisRequest() {
 
     if (method_ == METHOD_HEAD) return ANALYSIS_SUCCESS;
 
-    int src_fd = open(fileName_.c_str(), O_RDONLY, 0);
+    int src_fd = open((path_ + fileName_).c_str(), O_RDONLY, 0);
     if (src_fd < 0) {
+        std::cout<<"not found"<<std::endl;
       outBuffer_.clear();
       handleError(fd_, 404, "Not Found!");
       return ANALYSIS_ERROR;
